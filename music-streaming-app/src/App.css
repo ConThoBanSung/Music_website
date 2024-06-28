@@ -1,0 +1,72 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('image.jpg');
+  /* Các thuộc tính background-image khác có thể thêm vào đây */
+  background-size: cover; /* Để đảm bảo hình ảnh bao phủ toàn bộ khu vực */
+  background-position: center; /* Để căn giữa hình ảnh */
+  position: relative; 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav li {
+  margin-right: 1rem;
+}
+
+.nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.auth-links {
+  display: flex;
+}
+
+.auth-link {
+  margin-left: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main {
+  position: relative;
+  padding: 1rem;
+  width: 97.5%; 
+  white-space: pre-wrap;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  color: #000000;
+  bottom: 0%;
+  position: sticky;
+  right: 41.2%;
+  
+}
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.popup {
+  position: sticky;
+  bottom: 0px;
+  display: block;
+}
